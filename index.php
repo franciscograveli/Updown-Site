@@ -24,7 +24,6 @@
     @media (max-width: 360px) {
 
         .aboutUsButton {
-
             margin: 60px;
         }
     }
