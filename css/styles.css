@@ -25,11 +25,10 @@
   white-space: nowrap;
 }
 
-/* Importando fonte da logo */
-@import url(//db.onlinewebfonts.com/c/39459a22bc88390bf9f749d57984b3e1?family=CoreRhino75Heavy);
+/* Importando fonte CoreRhino */
 @font-face{
   font-family: 'CoreRhino';
-  src: url('../assets/coreRhino.otf');
+  src: url('../assets/fonts/core-rhino-65-bold.otf');
 }
 .upFont {
   font-family: CoreRhino;
@@ -55,12 +54,32 @@
   background: linear-gradient(90deg, #ffffff, #f0f0f0) !important;
 }
 .bg-gradient-darkblue-to-lightblue{
+  background-image: url(../assets/img/header/bgHeader.png);
+}
+.bg-gradient-darkblue-to-lightblue {
   background: rgb(59, 120, 187);
-  background: -moz-linear-gradient(90deg, rgba(12,43,80,1) 0%, rgba(59,120,187,1) 45%, rgba(43,145,216,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(12,43,80,1) 0%, rgba(59,120,187,1) 45%, rgba(43,145,216,1) 100%);
-  background: linear-gradient(90deg, rgba(12,43,80,1) 0%, rgba(59,120,187,1) 45%, rgba(43,145,216,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c2b50",endColorstr="#2b91d8",GradientType=1);
-
+background: -moz-linear-gradient(90deg, rgba(12,43,80,1) 0%, rgba(59,120,187,1) 45%, rgba(43,145,216,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(12,43,80,1) 0%, rgba(59,120,187,1) 45%, rgba(43,145,216,1) 100%);
+background: linear-gradient(90deg, rgba(12,43,80,1) 0%, rgba(59,120,187,1) 45%, rgba(43,145,216,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c2b50",endColorstr="#2b91d8",GradientType=1);
+}
+.bg-features{
+  background: linear-gradient(90deg, #ffffff, #f0f0f0) !important;
+}
+@media (min-width:992px) {
+  .bg-features{
+    background-position: auto !important;
+    background-image: url(../assets/img/features/celularnamao.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    min-height: 10rem !important;
+    width: auto !important;
+    
+  }
+  #imgfeatures{
+    display: none !important;
+  }
+  
 }
 .bg-gradient-blue-to-lightblue{
   background: rgb(43,145,216);
@@ -728,6 +747,15 @@ progress {
     font-size: calc(2.5em + 5vw);
     }
   }
+.display-motorista{
+  font-size: calc(1rem + 1vw);
+  line-height: 1;
+}
+@media (min-width: 768px) {
+  .display-motorista {
+    margin-left: 1.5rem !important;
+    }
+  }
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -772,6 +800,7 @@ progress {
   max-width: 100%;
   min-width: 150px;
   height: 100%;
+  display: block;
 }
 
 .img-thumbnail {
@@ -3765,6 +3794,20 @@ fieldset:disabled .btn {
 .btn-outline-light {
   color: #f8f9fa;
   border-color: #f8f9fa;
+}
+.btn-outline-driver{
+  color: #fff;
+  border-color: #33beec;
+  background-color: transparent;
+  border-width: 5px;
+  font-size: 1.75rem !important;
+}
+.btn-outline-driver:hover{
+  color: #f0ffff;
+  border-color: #026ca9;
+  background-color: #00000014;
+  box-shadow: #026ca96b 0.5px 1px 5px;
+  transition: 0.2s;
 }
 .btn-outline-user{
   color: rgb(58, 198, 237);
@@ -7516,6 +7559,7 @@ fieldset:disabled .btn {
 .me-socialmedia{
   margin-right: 5rem !important;
 }
+
 .me-auto {
   margin-right: auto !important;
 }
@@ -7571,7 +7615,9 @@ fieldset:disabled .btn {
 .ms-5 {
   margin-left: 3rem !important;
 }
-
+.ms-btn-driver{
+  margin-left: 5rem !important;
+}
 .ms-auto {
   margin-left: auto !important;
 }
@@ -7665,6 +7711,10 @@ fieldset:disabled .btn {
 .py-6{
   padding-top: 0.75rem !important;
   padding-bottom: 0.75rem !important;
+}
+.py-7{
+  padding-top: 5.75rem !important;
+  padding-bottom: 5.75rem !important;
 }
 .pt-0 {
   padding-top: 0 !important;
@@ -7788,6 +7838,9 @@ fieldset:disabled .btn {
 
 .fs-6 {
   font-size: 1rem !important;
+}
+.fs-7{
+  font-size: 0.75rem !important;
 }
 
 .fst-italic {
@@ -11433,8 +11486,15 @@ section {
   width: 100%;
   max-height: 100px;
   height: auto;
+  justify-content: space-around;
+  margin-bottom: 3rem !important;
+  padding-right: min(100px, 10%);
 }
-
+@media (max-width:768px) {
+  .socialmedia{
+    padding-right: min(200px, 20%);
+  }
+}
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -11532,9 +11592,20 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("https://source.unsplash.com/t0Aio60jD4Q/1500x800");
+  background-image: url("../assets/img/entregadorCaminhao.jpg");
   background-position: center;
   background-size: cover;
+}
+@media (max-width: 772px) {
+  .cta{
+    text-align: center !important;
+  }
+  .ms-btn-driver{
+    margin-left: 0rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important; 
+    font-size: 1.25rem !important;
+  }
 }
 section.cta .cta-content {
   position: relative;
@@ -11548,6 +11619,13 @@ section.cta:before {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 992px) {
+  .featuresGridIcons{
+    padding-left: calc(var(--bs-gutter-x) * 1.25) !important;
+    padding-right: calc(var(--bs-gutter-x) * 0) !important;
+  }
 }
 
 .icon-feature {
@@ -11667,8 +11745,8 @@ footer a:focus {
 .masthead {
   position: relative;
   background-color: #f8f9fa;  
-  padding-top: 9.5rem;
-  padding-bottom: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 .masthead .masthead-device-mockup {
   display: flex;
