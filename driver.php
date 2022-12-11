@@ -33,13 +33,16 @@
   }
   .TopicStyle{
     flex-direction: column;
+    min-width: 234;
   }
   .TextheaderH1 {
     font-size: 2.3rem;
+    
   } 
   .ImageStylesContainer{
-    width: 30rem;
+    max-width: 30rem;
     height: 30rem;
+    margin-left: 0;
   }
   .DriveIcons{
     width: 4rem;
@@ -164,7 +167,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#how">Como ser Updown</a>
+            <a class="nav-link me-lg-3" href="#colaborador">Como ser Updown</a>
           </li>
         </ul>
       </div>
@@ -307,7 +310,7 @@
   
   <!-- (Bloco 4) Tipos de Colaboradores -->
   <div class="text-center bg-gradient-primary-to-secondary py-5 px-5" id="benefits">
-    <div class="text-light upFont my-5 col-12 text-start justify-content-center">
+    <div class="text-light upFont my-5 col-12 text-center text-sm-start ms-0 ms-sm-btn-driver">
       <h3 class="display-2 fw-normal ">Confira as vantagens</h3>
       <h4 >Faça parte da nossa rede de motoristas.</h4>
     </div>
@@ -315,42 +318,42 @@
       <div class="row justify-content-around align-items-center px-sm-5" style="min-height: 150px;">
         <!-- Carro -->
         <div class="col-lg-2 bg-gradient-white-to-gray m-1
-          shadow-sm rounded zoom " data-bs-toggle="modal" data-bs-target="#carroModal">
-          <div class="text-dark">
+          shadow-sm rounded zoom text-dark " data-bs-toggle="modal" data-bs-target="#carroModal">
+          <div class="">
             <div class="lead">
               <img src="assets/img/driver/carro-novo.png" alt="" id="imgCard">
               <h5 class="">Carro</h5>
-              <p class="text-muted">maior conforto</p>
+              <p class="text-muted">maior<br>conforto</p>
             </div>
           </div>
         </div>
         <!-- Moto -->
-        <div class="col-lg-2 bg-gradient-white-to-gray m-1 shadow-sm rounded zoom" data-bs-toggle="modal" data-bs-target="#motoModal">
-          <div class="text-dark">
+        <div class="col-lg-2 bg-gradient-white-to-gray m-1 shadow-sm rounded zoom text-dark" data-bs-toggle="modal" data-bs-target="#motoModal">
+          <div class="">
             <div class="lead">
               <img src="assets/img/driver/moto-nova.png" alt="" id="imgCard">
               <h5 class="">Moto</h5>
-              <p class="text-muted">maior demanda</p>
+              <p class="text-muted">maior<br>demanda</p>
             </div>
           </div>
         </div>
         <!-- Utilitário -->
-        <div class="col-lg-2 bg-gradient-white-to-gray m-1 shadow-sm rounded zoom" data-bs-toggle="modal" data-bs-target="#utilitarioModal">
-          <div class="text-dark">
+        <div class="col-lg-2 bg-gradient-white-to-gray m-1 shadow-sm rounded zoom text-dark" data-bs-toggle="modal" data-bs-target="#utilitarioModal">
+          <div class="">
             <div class="lead">
               <img src="assets/img/driver/utilitario-novo.png" alt="" id="imgCard">
               <h5 class="">Utilitário</h5>
-              <p class="text-muted">maior rentabilidade</p>
+              <p class="text-muted">maior<br>rentabilidade</p>
             </div>
           </div>
         </div>
         <!-- Baú -->
-        <div class="col-lg-2 bg-gradient-white-to-gray m-1 shadow-sm rounded zoom" data-bs-toggle="modal" data-bs-target="#bauModal">
-          <div class="text-dark">
+        <div class="col-lg-2 bg-gradient-white-to-gray m-1 shadow-sm rounded zoom text-dark" data-bs-toggle="modal" data-bs-target="#bauModal">
+          <div class="">
             <div class="lead">
               <img src="assets/img/driver/caminhao-novo.png" alt="" id="imgCard">
               <h5 class="">Baú</h5>
-              <p class="text-muted">Melhor rentabilidade</p>
+              <p class="text-muted">Melhor<br>rentabilidade</p>
             </div>
           </div>
         </div>
@@ -358,64 +361,189 @@
     </div>
   </div>
   <!-- Fim dos Colaboradores -->
-  <section class="bg-gradient-primary-to-secondary" id="socialMedia">
-        <div class="container px-1">
-            <h2 class="text-center text-white font-alt mb-4 fw-lighter ">Além do nosso site,<br>
-                você poderá ficar por dentro de todas as nossas campanhas e novidades no:
-            </h2>
-            <div class="d-flex flex-wrap flex-lg-row align-items-center " id="socialID" style="justify-content: space-around;">
-                <div>
-                <h2 class="text-center text-white font-alt mb-4 fw-lighter col-lg-4">Além do nosso site,<br>
-                você poderá ficar por dentro de todas as nossas campanhas e novidades no:
-            </h2></div>
-                <div>
-                <h2 class="text-center text-white font-alt mb-4 fw-lighter col-lg-4">Além do nosso site,<br>
-                você poderá ficar por dentro de todas as nossas campanhas e novidades no:
-            </h2></div>
-             
+
+  <section class="bg-gradient-primary-to-secondary" id="">
+        <div class="container px-5 text-white text-sm-start text-center">
+        <div class="row gx-5 align-items-center">
+                <div class="col-12 order-lg-1 mb-5 mb-lg-0 featuresGridIcons">
+                    <div class="container-fluid px-5">
+                        <div class="row gx-5">
+                            <div class="col-md-6 mb-5" >
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Carro</h3>
+                                    <p class="mb-0 fs-6 fw-lighter">Prefere trabalhar com pequenas e médias encomendas?
+                                      Essa modalidade é ideal para você. Dirigindo de carro,
+                                      você trabalha com mais seguraça e conforto,
+                                      além de se adequar numa das melhores demandas do mercado de frete.<br>
+                                      <br>
+                                      Detalhes da Corrida
+                                      <br>
+                                      <br>
+                                      <ul class="fw-light text-start">
+                                      <li>15 Corridas</li>
+                                      <li>11,50 Reias de Bônus</li>
+                                      <li>0,46 centavos por corrida ou aproximadamente 1/3 da comissão de 20% do valor mínimino da corrida</li>
+                                      </ul> 
+                                      </p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5" >
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Moto</h3>
+                                    <p class="mb-0 fs-6 fw-lighter">Que tal trabalhar com agilidade? Na categoria moto,
+                                        suas entregas serão mais rápidas e econômicas. É a
+                                        melhor opção para quem quer iniciar no mercado de delivery. Sem metas abusivas, para
+                                        que você possa
+                                        realizar suas entregas com tranquilidade e segurança.<br>
+                                        <br>
+                                        Detalhes da Corrida
+                                        <br>
+                                        <br>
+                                        <ul class="fw-light text-start">
+                                        <li>15 Corridas</li>
+                                        <li>10,00 Reias de Bônus</li>
+                                        <li>0,40 centavos por corrida ou aproximadamente 1/3 da comissão de 20% do valor mínimino da corrida</li>
+                                        </ul> 
+                                        </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-5">
+                            <div class="col-md-6 mb-5 mb-5">
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Utilitário</h3>
+                                    <p class="mb-0 fs-6 fw-lighter">Se você é do tipo que gosta de transportar cargas mais pesadas ou várias
+                                            menores simultaneamente,
+                                            o utilitário é para você. Você pode tanto ganhar mais com uma única
+                                            entrega de carga pesada quanto ganhar muito mais carregando várias
+                                            leves ao mesmo tempo.<br>
+                                            <br>
+                                            Detalhes da Corrida
+                                            <br>
+                                            <br>
+                                            <ul class="fw-light text-start">
+                                            <li>5 Corridas</li>
+                                            <li>10,50 Reias de Bônus</li>
+                                            <li>2,10 centavos por corrida ou aproximadamente 1/3 da comissão de 20% do valor mínimino da corrida</li>
+                                            </ul> 
+                                            </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6" >
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Baú</h3>
+                                    <p class="mb-0 fs-6 fw-lighter">Realize entregas de todos os tipos, ajude pessoas e empresas com mudanças e
+                                        encomendas. Com o baú, você pode aceitar qualquer corrida.
+                                        Detalhes da Corrida:<br>
+                                        <br>
+                                        Detalhes da Corrida
+                                        <br>
+                                        <br>
+                                        <ul class="fw-light text-start">
+                                        <li>2 Corridas</li>
+                                        <li>13,00 Reias de Bônus</li>
+                                        <li>6,50 centavos por corrida ou aproximadamente 1/3 da comissão de 20% do valor mínimino da corrida</li>
+                                        </ul> 
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>  
+        </div>
+    </section>
+<!--  -->
+<section class="bg-gradient-white-to-gray text-muted" id="AboutUs">
+        <div class="container px-5">
+        <h2 class="display-motorista lh-1 mb-4 upFont text-center ">Venha conhecer os benefícios de utilizar nossa plataforma:</h2>
+            <div class="row gx-5 mb-md-3 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-sm-4 col-md-3 mb-0 mt-0">
+                    <div class="px-0 px-sm-0"><img class="img-fluid " src="assets/img/driver/free.png" alt="..."></div>
+                </div>
+                <div class="col-12 col-lg-9 ">
+                    <h3 class=" lh-1 mb-1 upFont text-center text-sm-start ">Período de utilização livre</h3>
+                    <p class="lead fw-400 mb-3 mb-lg-0">Para conhecer nossa plataforma, ao se cadastrar você ganhará um período de
+                      utilização sem incidência de cobrança da taxa administrativa de 20%. Confira
+                      as condições de campanha no nosso aplicativo.
+                      </p>
+                </div>
+            </div>
+            <div class="row gx-5 mb-md-3 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-sm-4 col-md-3 mb-0 mt-0">
+                    <div class="px-0 px-sm-0"><img class="img-fluid " src="assets/img/driver/timer.png" alt="..."></div>
+                </div>
+                <div class="col-12 col-lg-9 ">
+                    <h3 class=" lh-1 mb-1 upFont text-center text-sm-start ">Ausência de tempo ocioso</h3></h3>
+                    <p class="lead fw-400 mb-3 mb-lg-0">Diferentemente dos tradicionais aplicativos de entrega presentes na cidade e
+                      que possuem foco no delivery de alimentação, não haverá tempo de espera
+                      para preparação de pedidos. Todos os itens entregues ocorrerão de maneira
+                      imediata entre entregador e cliente de origem após a busca do produto.
+                      </p>
+                </div>
+            </div> <div class="row gx-5 mb-md-3 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-sm-4 col-md-3 mb-0 mt-0">
+                    <div class="px-0 px-sm-0"><img class="img-fluid " src="assets/img/driver/gift.png" alt="..."></div>
+                </div>
+                <div class="col-12 col-lg-9 ">
+                    <h3 class=" lh-1 mb-1 upFont text-center text-sm-start ">Cartão-Presente</h3>
+                    <p class="lead fw-400 mb-3 mb-lg-0">Sempre que realizar um número específico de entregas diárias, variando
+                      a depender do seu veículo, você ganhará uma premiação.
+                      </p>
+                </div>
             </div>
         </div>
     </section>
-  <!-- (Bloco 5) Como ser um Colaborador -->
-  <div class="my-5">
-    <h1 class="upFont text-center TextheaderH1" id="colaborador">
+<!--  -->
+    <!-- (Bloco 5) Como ser um Colaborador -->
+  
+    <div class="pt-5 bg-gradient-primary-to-secondary text-white">
+    <h1 class="upFont text-center  TextheaderH1" id="colaborador">
       Veja como é fácil ser um colaborador
     </h1>
-     <div class="container">   
-      <div>
+     <div >   
+     <div class="container text-center pb-5">
+   
         <img class="ImageStylesContainer mx-auto" style="display: block" src="assets/img/driver/Azuzin.png">
+      <div class="d-flex flex-wrap flex-lg-row align-items-center" style="justify-content: space-around;">
         <div class="TopicStyle"> 
-          <img class="DriveIcons mx-auto" style="display: block" src="assets/img/driver/Icons/01 - iconeApp.png" /> 
+          <img class="DriveIcons mx-auto" style="display: block" src="assets/img/driver/Icons/logoIconDriver.png" /> 
           <p class="mx-auto text-center my-4 ParagrafStyle"> 
             Instale Nosso App 
           </p>
-        </div>     
+        </div>
         <div class="TopicStyle"> 
-          <img class="DriveIcons mx-auto" style="display: block" src="assets/img/driver/Icons/02 - iconeCadastro.png" /> 
+          <img class="DriveIcons mx-auto" style="display: block" src="assets/img/driver/Icons/plus.png" /> 
           <p class="mx-auto text-center my-4 ParagrafStyle"> 
           Realize o Cadastro
           </p>
         </div>     
         <div class="TopicStyle"> 
-          <img class="DriveIcons mx-auto" style="display: block" src="assets/img/driver/Icons/03 - iconeFormulario.png" /> 
+          <img class="DriveIcons mx-auto" style="display: block" src="assets/img/driver/Icons/carta.png" /> 
           <p class="mx-auto text-center my-4 ParagrafStyle"> 
           Envie os Documentos
           </p>
         </div>     
         <div class="TopicStyle"> 
-          <img class="DriveIcons mx-auto" style="display: block" src="assets/img/driver/Icons/04 - iconeEspera.png" /> 
+          <img class="DriveIcons mx-auto" style="display: block" src="assets/img/driver/Icons/calendario.png" /> 
           <p class="mx-auto text-center my-4 ParagrafStyle"> 
           Aguarde um Pouco
           </p>
         </div>     
         <div class="TopicStyle"> 
-          <img class="DriveIcons mx-auto" style="display: block" src="assets/img/driver/Icons/05 - iconeOk.png" /> 
+          <img class="DriveIcons mx-auto" style="display: block" src="assets/img/driver/Icons/check.png" /> 
           <p class="mx-auto text-center my-4 ParagrafStyle"> 
-          Já Pode Começar ;)
+          Aguarde um Pouco
           </p>
-          <br>
-          <br>
-        </div>     
+        </div> 
+      </div>      
       </div>
   </div>
   
@@ -424,13 +552,11 @@
   <!-- Finalzinho -->
 
   <!-- cta -->
-  <section class="driverCta" id="Driver">
+  <section class="" id="Driver">
     <div class="cta-content">
       <div class="container px-5">
-        <h2 class="text-white display-3 lh-1 mb-4 upFont">
-          Faça parte da
-          <br />
-          nossa rede.
+        <h2 class="text-white display-3 lh-1 mb-4 upFont fw-bolder">
+          Confira as vantagens
         </h2>
         <a class="btn btn-outline-light py-3 px-4 my-3 rounded-pill" href="#home">
           Faça seu Cadastro!
@@ -441,20 +567,20 @@
 
   <!-- Footer-->
   <footer class="bg-black text-center py-4">
-    <div class="container px-5">
-      <div class="text-white-50 small">
-        <div class="mb-2">
-          &copy; 2021 Updown - todos os direitos reservados.
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; 2021 Updown - todos os direitos reservados.</div>
+                <a href="assets/docs/Politica.pdf" target="_blank">Política de Privacidade</a>
+                <span class="mx-1">&middot;</span>
+                <a href="assets/docs/termos de uso - clientes.pdf" target="_blank">Termos de Uso - Usuários</a>
+                <span class="mx-1">&middot;</span>
+                <a href="assets/docs/termos de uso - entregador.pdf.pdf" target="_blank">Termos de Uso - Entregadores</a>
+            </div>
         </div>
-        <a href="#!">Privacidade</a>
-        <span class="mx-1">&middot;</span>
-        <a href="#!">Termos</a>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
   <!-- MODAL SEJA UM MOTORISTA-->
-  <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+  <div class="modal fade text-muted" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
     <!-- MODAL SEJA UM MOTORISTA -->
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -551,7 +677,7 @@
             </div>
             <!-- Submit Button-->
             <div class="d-grid">
-              <button class="btn btn-primary rounded-pill btn-lg" id="submitButton" type="submit" form="signUpForm" value="submit">
+              <button class="btn btn-secondary rounded-pill btn-lg" id="submitButton" type="submit" form="signUpForm" value="submit">
                 Cadastrar!!
               </button>
             </div>

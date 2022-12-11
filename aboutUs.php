@@ -42,7 +42,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-lg-white" id="mainNav">
     <div class="container px-3">
       <a class="navbar-brand fw-bold upFont LogoTitleColor" href="index.php">
-        <img src="assets/img/logo/logoUpDown.png" style="max-width: 35%; padding-right: 2px" />
+        <img src="assets/img/logo/logoUpDown.png" id="logo" />
         UpDown</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -51,13 +51,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#Empresa">A Empresa</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#Equipe">A Equipe</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#Portfolio">Nosso Portfólio</a>
+            <a class="nav-link me-lg-3" href="#sobreNos">Sobre nós</a>
           </li>
           <li class="nav-item">
             <a class="nav-link me-lg-3" href="#Contato">Fale Conosco</a>
@@ -90,22 +84,22 @@
 
   <!-- Visão -->
   <section>
-  <div class="row gx-5 align-items-center justify-content-center ">
-                <div class="col-sm-8 col-lg-9 text-muted">
-                    <h2 class="display-6 lh-1 mb-4 upFont text-end ">Saiba mais sobre nós</h2>
+  <div class="row gx-5 align-items-center justify-content-center "id="sobreNos">
+                <div class="col-8 col-lg-9 text-muted" >
+                    <h2 class="display-6 lh-1 mb-4 upFont text-end" id="h2aboutUs">Saiba mais sobre nós</h2>
                     <p class="lead fw-400 mb-5 mb-lg-0 ">A Updown surgiu com o propósito de oferecer ao seu público serviços de coleta e entrega de documentos
                           e produtos de pequeno, médio e grande porte de forma prática, ágil e inovadora para seus usuários,
                           trazendo melhores opções de funcionalidade e otimização de tempo no transporte de artigos comerciais e
-                          pessoais.<br>
+                          pessoais.<br><br>
                           Atuamos com moto, carro, utilitário e caminhão, permitindo o transporte de itens nos mais diversos
                           tamanhos e opção para que usuários solicitem o veículo que melhor se encaixem no perfil do que deseje
-                          transportar.<br>
+                          transportar.<br><br>
                           Possuímos também opções para que empresas dos mais diversos portes possam transportar itens com
                           segurança e agilidade de acordo com o que melhor se encaixe nas suas necessidade e permitindo a
                           entrega múltipla de itens com um único veículo, tornando a opção prática e econômica.<br>
                           As entregas são todas realizadas no mesmo dia e todos os pedidos possuem rastreamento em tempo real
                           e acompanhamento de rota por remetente e destinatário. Possuímos também possibilidade de
-                          agendamento e de pagamento da entrega por quem recebe o pedido.<br>
+                          agendamento e de pagamento da entrega por quem recebe o pedido.<br><br>
                           Em todos os pedidos o pagamento pode ser realizado através do próprio aplicativo e você contará com
                           um histórico salvo das suas solicitações. E se tiver qualquer dúvida poderá entrar em contato conosco
                           através do nosso suporte 24 horas.</p>
@@ -134,7 +128,7 @@
       <div class="row">
 
         <!-- Formulário de Contato -->
-        <div class="col-sm-6">
+        <div class="col-sm-6" style="max-width: 550px;">
           <form id="formulario" action="email.php" class="pr-5 fw-400 mt-lg-4 mt-3" method="post">
             <!-- Nome -->
             <div class="form-group">

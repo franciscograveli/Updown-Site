@@ -32,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-3">
             <a class="navbar-brand fw-bold upFont LogoTitleColor" href="#page-top">
-                <img src="assets/img/logo/logoUpDown.png" style="max-width: 35%; padding-right: 2px;">
+                <img src="assets/img/logo/logoUpDown.png" id="logo" >
                 UpDown</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -55,12 +55,12 @@
         </div>
     </nav>
     <!-- Mashead header-->
-    <header class="masthead bg-gradient-darkblue-to-lightblue ">
-        <div class="container px-5 py-7">
+    <header class="masthead bg-lg-gradient-darkblue-to-lightblue ">
+        <div class="container px-5 py-7 ">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6">
                     <!-- Mashead text and app badges-->
-                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                    <div class="mb-5 mb-lg-0 text-center text-Xlg-start">
                     <p class="lead fw-lighter  mb-3 headerSubTitleColor ">Faça parte da melhor rede de entregas do Brasil!</p>
                         <h1 class="display-HeaderTile lh-1 mb-3 upFont headerTitleColor ">UpDown</h1>
                         <div class="d-flex flex-column flex-lg-row align-items-center">

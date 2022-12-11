@@ -120,7 +120,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#motivo">Porque usar Updown</a>
+            <a class="nav-link me-lg-3" href="#infos">Porque usar Updown</a>
           </li>
           <li class="nav-item">
             <a class="nav-link me-lg-3" href="#categorias">Conheça as Modalidades</a>
@@ -222,7 +222,127 @@
   </div>
 
   <!-- Explicação -->
-  <div class="bg-gradient-white-to-gray ">
+  <!--  -->
+  <section class="userInfos" id="infos">
+    <div class="cta-content mb-6">
+      <div class=" px-3 py-0 text-white">
+      <div class="row gx-5 align-items-center justify ">
+                <div class="col-12 order-lg-1 mb-5 mb-lg-0 ">
+                    <div class="container-fluid px-5 text-center ">
+                      
+                      <div class="row gx-5">
+                            <div class="col-xl-5 col-12 mb ">
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Entrega à cobrar</h3>
+                                    <p class="mb-0 fs-6 fw-400">Envie um item e permita que o destinatário pague pela
+                                    entrega. Basta que ele autorize previamente através
+                                    de um token recebido via SMS.
+                                    A não realização de pagamento pelo mesmo incidirá
+                                    no retorno da encomenda ao remetente e cobrança
+                                    dos custos iniciais acrescentado do novo
+                                    deslocamento.</p>
+                                    
+                                </div>
+                            </div>
+                      </div>
+                        <div class="row gx-5">
+                            
+                            <div class="col-xl-2 col-12 mt-xl-5 me-user mb-5 mb-xl-0">
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Viagem segura</h3>
+                                    <p class="mb-0 fs-6 fw-400">O usuário pode acompanhar a
+viagem pelo rastreamento
+disponibilizado pelo aplicativo.</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-12 mt-10 ms-xl-5 me-xl-5 mb-5 mb-xl-0">
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Preço baixo</h3>
+                                    <p class="mb-0 fs-6 fw-400">Tarifa fixa para qualquer
+localização da cidade onde
+será acrescentado às taxas
+de custo de acordo com o
+percurso e veículo utilizado.
+
+                                        </p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-12 me-xl-5 mb-5 mb-xl-0">
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Indique e Ganhe</h3>
+                                    <p class="mb-0 fs-6 fw-400">Concessão de crédito para
+usuários que indicarem 10 novos
+amigos que realizem a primeira
+corrida pelo aplicativo.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-12 mb-5 mb-xl-0">
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Cupons de Descontos</h3>
+                                    <p class="mb-0 fs-6 fw-400">Descontos na taxa de coleta e entrega de
+produtos através da geração de códigos de
+descontos. Acompanhe os banners e
+notificações do nosso aplicativo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-5 mt-10">
+                            
+                            <div class="col-xl-3 col-12 mb-5 me-xl-4 mb-xl-0">
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Várias paradas</h3>
+                                    <p class="mb-0 fs-6 fw-400">Com uma única entrega, você
+poderá ter até 05 destinos diferentes
+de entrega através de uma única
+corrida. Mais praticidade pra você e
+redução do valor.
+</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-5 mt-xl-5 ms-xl-5 mb-5 mb-xl-0">
+                                <!-- Feature item-->
+                                <div class="">
+                                <h3 class="font-alt fs-6 fw-bolder">Plano VIP</h3>
+                                    <p class="mb-0 fs-6 fw-400">Assinatura com cobrança mensal de R$ 49,90 que
+oferecerá benefícios para você como: viagens com valor
+reduzido, cupons de desconto exclusivos e aumento no
+número de paradas em viagens.
+Acompanhe o lançamento através das nossas redes
+sociais e banner no aplicativo</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-12 ms-xl-5 ">
+                                <!-- Feature item-->
+                                <div class="">
+                                    <p class="mb-0 fs-6 fw-400">Atendimento personalizado
+Além do rastreamento, as corridas
+possuem chats para comunicação com
+motoristas, suporte para problemas
+técnicos e compartilhamento de rotas
+com destinatário.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        
+        <!-- <a class="btn btn-outline-light py-3 px-4 my-3 rounded-pill" href="#!" target="_blank">Baixe agora nosso aplicativo!</a> -->
+      </div>
+    </div>
+ 
+  </section>
+  <!--  -->
+  <div class="">
     <div class="container p-5 text-muted " >
       <!-- Preço Justo -->
       <div class="row align-items-center justify-content-center" >
