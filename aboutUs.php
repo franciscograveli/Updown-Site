@@ -23,8 +23,8 @@
     overflow-x: hidden;
   }
 
-  #map {
 
+  iframe{
     height: 300px;
     width: 100%;
   }
@@ -71,7 +71,7 @@
     <div class="container px-5">
       <div class="">
         <!-- Mashead text and app badges-->
-        <div class="mt-sm-4 mt-lg-5 mb-5 mb-lg-0 text-center">
+        <div class="mt-0 mt-lg-5 mb-5 mb-lg-0 text-center">
           <h1 class="display-HeaderTile lh-1 mb-3 upFont">Quem Somos</h1>
           <p class="h3 fw-light">
             Vamos falar um pouco sobre os serviços oferecidos pela Updown
@@ -83,8 +83,8 @@
   </header>
 
   <!-- Visão -->
-  <section>
-  <div class="row gx-5 align-items-center justify-content-center "id="sobreNos">
+  <section id="sobreNos">
+  <div class="row gx-5 align-items-center justify-content-center ">
                 <div class="col-8 col-lg-9 text-muted" >
                     <h2 class="display-6 lh-1 mb-4 upFont text-end" id="h2aboutUs">Saiba mais sobre nós</h2>
                     <p class="lead fw-400 mb-5 mb-lg-0 ">A Updown surgiu com o propósito de oferecer ao seu público serviços de coleta e entrega de documentos
@@ -157,9 +157,9 @@
             <small> Av. Silvio Almeida, 626 <br></small>
             <small>Expedicionários João Pessoa - PB</small>
           </div>
-          <div id="map" class="map rounded">
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2" async></script>
-          </div>
+          <iframe class="rounded"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas " src="https://maps.google.com/maps?width=400&amp;height=300&amp;hl=en&amp;q=Silvio%20Almeida,626%20Jo%C3%A3o%20Pessoa+(Updown)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+       
+
         </div>
       </div>
     </div>
@@ -175,32 +175,12 @@
                 <span class="mx-1">&middot;</span>
                 <a href="assets/docs/termos de uso - clientes.pdf" target="_blank">Termos de Uso - Usuários</a>
                 <span class="mx-1">&middot;</span>
-                <a href="assets/docs/termos de uso - entregador.pdf.pdf" target="_blank">Termos de Uso - Entregadores</a>
+                <a href="assets/docs/termos de uso - entregador.pdf" target="_blank">Termos de Uso - Entregadores</a>
             </div>
         </div>
     </footer>
 
-  <!-- Google maps -->
-  <script>
-    // Initialize and add the map
-    function initMap() {
-      // The location of Uluru
-      const upDown = {
-        lat: -7.122579,
-        lng: -34.853751
-      };
-      // The map, centered at Uluru
-      const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 15,
-        center: upDown,
-      });
-      // The marker, positioned at Uluru
-      const marker = new google.maps.Marker({
-        position: upDown,
-        map: map,
-      });
-    }
-  </script>
+
 
   <!-- Formulário de Contato -->
   <script>
@@ -233,7 +213,7 @@
   <!-- * *                               SB Forms JS                               * *-->
   <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
   <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  
 </body>
 
 </html>

@@ -56,21 +56,20 @@
     </nav>
     <!-- Mashead header-->
     <header class="masthead bg-lg-gradient-darkblue-to-lightblue ">
-        <div class="container px-5 py-7 ">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6">
-                    <!-- Mashead text and app badges-->
-                    <div class="mb-5 mb-lg-0 text-center text-Xlg-start">
-                    <p class="lead fw-lighter  mb-3 headerSubTitleColor ">Faça parte da melhor rede de entregas do Brasil!</p>
-                        <h1 class="display-HeaderTile lh-1 mb-3 upFont headerTitleColor ">UpDown</h1>
-                        <div class="d-flex flex-column flex-lg-row align-items-center">
-                            <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/pt-br_badge_web_generic.png" alt="..." /></a>
+    <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-12 col-lg-5 ">
+                <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                    <p class="lead2 fw-lighter  mb-3 mb-lg-0 headerSubTitleColor ">Faça parte da melhor rede de entregas do Brasil!</p>
+                        <h1 class="display-HeaderTile lh-1 mb-3 mb-lg-0 upFont headerTitleColor ">UpDown</h1>
+                        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                            <a class="me-lg-3 mb-4 " href="#!"><img class="app-badge" src="assets/img/pt-br_badge_web_generic.png" alt="..." /></a>
                             <!--<a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>-->
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <!-- Adiciona outros conteudos no header -->
+                <div class="col-12 col-lg-7 ">
+                    <div class="px-0 px-sm-0 ms-md-5 ms-lg-5 mt-lg-2"><img class="img-fluid " src="assets/img/header/bgHeader.png" alt="..." /></div>
                 </div>
             </div>
         </div>
@@ -80,7 +79,7 @@
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-xl-11">
-                    <div class="h2 fs-1 text-white mb-4">A solução mais confiável e transparente para suas encomendas</div>
+                    <div class="h2 fs-1 text-white mb-4">A solução mais confiável<br>e transparente para suas encomendas</div>
                 </div>
             </div>
             <!-- Botão para usuário -->
@@ -173,19 +172,19 @@
             </h2>
             <div class="d-flex flex-wrap flex-lg-row align-items-center" id="socialID" style="justify-content: space-around;">
                 <div>
-                <a class=" text-center  mb-4 " href="https://play.google.com/store/apps/details?id=com.updownuser"><img class="socialmedia" src="assets/img/social/instagram.png" alt="Updown Usuários" /></a>
+                <a class=" text-center  mb-4 " href="https://www.instagram.com/updown.app/" target="_blank"><img class="socialmedia" src="assets/img/social/instagram.png" alt="Updown Usuários" /></a>
                 </div>
                 <div>
-                <a class=" text-center  mb-4 " href="https://play.google.com/store/apps/details?id=com.updownuser"><img class="socialmedia" src="assets/img/social/facebook.png" alt="Updown Usuários" /></a>
+                <a class=" text-center  mb-4 " href="https://www.facebook.com/updownaplicativo" target="_blank"><img class="socialmedia" src="assets/img/social/facebook.png" alt="Updown Usuários" /></a>
                 </div>
                 <div>
-                <a class=" text-center  mb-4 " href="https://play.google.com/store/apps/details?id=com.updownuser"><img class="socialmedia" src="assets/img/social/linkedin.png" alt="Updown Usuários" /></a>
+                <a class=" text-center  mb-4 " href="https://www.linkedin.com/in/josé-walter-88a554228/" target="_blank"><img class="socialmedia" src="assets/img/social/linkedin.png" alt="Updown Usuários" /></a>
                 </div>
                 <div>
-                <a class=" text-center  mb-4 " href="https://play.google.com/store/apps/details?id=com.updownuser"><img class="socialmedia" src="assets/img/social/wpp.png" alt="Updown Usuários" /></a>
+                <a class=" text-center  mb-4 " href="https://play.google.com/store/apps/details?id=com.updownuser" target="_blank"><img class="socialmedia" src="assets/img/social/wpp.png" alt="Updown Usuários" /></a>
                 </div>
                 <div>
-                <a class=" text-center   mb-4 " href="https://play.google.com/store/apps/details?id=com.updownuser"><img class="socialmedia" src="assets/img/social/mail.png" alt="Updown Usuários" /></a>
+                <a class=" text-center   mb-4 " href="https://play.google.com/store/apps/details?id=com.updownuser" target="_blank"><img class="socialmedia" src="assets/img/social/mail.png" alt="Updown Usuários" /></a>
                 </div>
             </div>
         </div>
@@ -208,12 +207,15 @@
     <!-- App badge section-->
     <section class="bg-gradient-primary-to-secondary" id="download">
         <div class="container px-5 text-center">
-            <h1 class="text-center text-white font-alt mb-3 fw-bold">Baixe agora o nosso aplicativo!</h1>
+            <h1 class="text-center text-white font-alt mb-4 pt-sm-5 pt-3 fw-bold">Baixe agora o nosso aplicativo!</h1>
             <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
                 <div>
-                <h4><p class="text-white fw-lighter">Seja um Usuário: </p></h4>
+                <h4><p class="text-white mb-0 fw-lighter">Seja um Usuário: </p></h4>
                 <a class=" text-center me-lg-3 mb-4 mb-lg-0" href="https://play.google.com/store/apps/details?id=com.updownuser"><img class="app-badge" src="assets/img/pt-br_badge_web_generic.png" alt="Updown Usuários" /></a>
-                </div>
+                <h4><p class="text-white mb-0 fw-lighter mt-2">Seja um Motorista: </p></h4>
+                <a class=" text-center me-lg-3 mb-4 mb-lg-0" href="https://play.google.com/store/apps/details?id=com.updownuser"><img class="app-badge" src="assets/img/pt-br_badge_web_generic.png" alt="Updown Usuários" /></a>
+                    
+            </div>
             </div>
         </div>
     </section>
@@ -226,7 +228,7 @@
                 <span class="mx-1">&middot;</span>
                 <a href="assets/docs/termos de uso - clientes.pdf" target="_blank">Termos de Uso - Usuários</a>
                 <span class="mx-1">&middot;</span>
-                <a href="assets/docs/termos de uso - entregador.pdf.pdf" target="_blank">Termos de Uso - Entregadores</a>
+                <a href="assets/docs/termos de uso - entregador.pdf" target="_blank">Termos de Uso - Entregadores</a>
             </div>
         </div>
     </footer>

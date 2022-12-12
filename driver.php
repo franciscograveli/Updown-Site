@@ -159,7 +159,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link me-lg-3" href="#why">Porque ser Updown</a>
+            <a class="nav-link me-lg-3" href="#AboutUs">Porque ser Updown</a>
           </li>
 
           <li class="nav-item">
@@ -353,7 +353,7 @@
             <div class="lead">
               <img src="assets/img/driver/caminhao-novo.png" alt="" id="imgCard">
               <h5 class="">Baú</h5>
-              <p class="text-muted">Melhor<br>rentabilidade</p>
+              <p class="text-muted">melhor<br>rentabilidade</p>
             </div>
           </div>
         </div>
@@ -362,105 +362,7 @@
   </div>
   <!-- Fim dos Colaboradores -->
 
-  <section class="bg-gradient-primary-to-secondary" id="">
-        <div class="container px-5 text-white text-sm-start text-center">
-        <div class="row gx-5 align-items-center">
-                <div class="col-12 order-lg-1 mb-5 mb-lg-0 featuresGridIcons">
-                    <div class="container-fluid px-5">
-                        <div class="row gx-5">
-                            <div class="col-md-6 mb-5" >
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Carro</h3>
-                                    <p class="mb-0 fs-6 fw-lighter">Prefere trabalhar com pequenas e médias encomendas?
-                                      Essa modalidade é ideal para você. Dirigindo de carro,
-                                      você trabalha com mais seguraça e conforto,
-                                      além de se adequar numa das melhores demandas do mercado de frete.<br>
-                                      <br>
-                                      Detalhes da Corrida
-                                      <br>
-                                      <br>
-                                      <ul class="fw-light text-start">
-                                      <li>15 Corridas</li>
-                                      <li>11,50 Reias de Bônus</li>
-                                      <li>0,46 centavos por corrida ou aproximadamente 1/3 da comissão de 20% do valor mínimino da corrida</li>
-                                      </ul> 
-                                      </p>
-                                    
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-5" >
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Moto</h3>
-                                    <p class="mb-0 fs-6 fw-lighter">Que tal trabalhar com agilidade? Na categoria moto,
-                                        suas entregas serão mais rápidas e econômicas. É a
-                                        melhor opção para quem quer iniciar no mercado de delivery. Sem metas abusivas, para
-                                        que você possa
-                                        realizar suas entregas com tranquilidade e segurança.<br>
-                                        <br>
-                                        Detalhes da Corrida
-                                        <br>
-                                        <br>
-                                        <ul class="fw-light text-start">
-                                        <li>15 Corridas</li>
-                                        <li>10,00 Reias de Bônus</li>
-                                        <li>0,40 centavos por corrida ou aproximadamente 1/3 da comissão de 20% do valor mínimino da corrida</li>
-                                        </ul> 
-                                        </p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row gx-5">
-                            <div class="col-md-6 mb-5 mb-5">
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Utilitário</h3>
-                                    <p class="mb-0 fs-6 fw-lighter">Se você é do tipo que gosta de transportar cargas mais pesadas ou várias
-                                            menores simultaneamente,
-                                            o utilitário é para você. Você pode tanto ganhar mais com uma única
-                                            entrega de carga pesada quanto ganhar muito mais carregando várias
-                                            leves ao mesmo tempo.<br>
-                                            <br>
-                                            Detalhes da Corrida
-                                            <br>
-                                            <br>
-                                            <ul class="fw-light text-start">
-                                            <li>5 Corridas</li>
-                                            <li>10,50 Reias de Bônus</li>
-                                            <li>2,10 centavos por corrida ou aproximadamente 1/3 da comissão de 20% do valor mínimino da corrida</li>
-                                            </ul> 
-                                            </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6" >
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Baú</h3>
-                                    <p class="mb-0 fs-6 fw-lighter">Realize entregas de todos os tipos, ajude pessoas e empresas com mudanças e
-                                        encomendas. Com o baú, você pode aceitar qualquer corrida.
-                                        Detalhes da Corrida:<br>
-                                        <br>
-                                        Detalhes da Corrida
-                                        <br>
-                                        <br>
-                                        <ul class="fw-light text-start">
-                                        <li>2 Corridas</li>
-                                        <li>13,00 Reias de Bônus</li>
-                                        <li>6,50 centavos por corrida ou aproximadamente 1/3 da comissão de 20% do valor mínimino da corrida</li>
-                                        </ul> 
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>  
-        </div>
-    </section>
-<!--  -->
+  <!--  -->
 <section class="bg-gradient-white-to-gray text-muted" id="AboutUs">
         <div class="container px-5">
         <h2 class="display-motorista lh-1 mb-4 upFont text-center ">Venha conhecer os benefícios de utilizar nossa plataforma:</h2>
@@ -552,7 +454,7 @@
   <!-- Finalzinho -->
 
   <!-- cta -->
-  <section class="" id="Driver">
+  <section class="bg-driver-final" id="Driver">
     <div class="cta-content">
       <div class="container px-5">
         <h2 class="text-white display-3 lh-1 mb-4 upFont fw-bolder">
@@ -592,7 +494,7 @@
         </div>
         <div class="modal-body border-0 p-4">
           <!-- formulário -->
-          <form id="signUpForm" action="DriverSignUp.php" method="POST">
+          <form id="signUpForm" action="index.php" method="POST">
             <!-- Nome e SobreNome-->
             <div class="form-floating mb-3">
               <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." data-sb-validations="required" onkeyup="validateDriver()" />
@@ -690,7 +592,7 @@
 
 
   <!-- MODAL DO CARRO -->
-  <div class="modal fade" id="carroModal" tabindex="-1" aria-labelledby="carroModalLabel" aria-hidden="true">
+  <div class="modal fade text-muted lead" id="carroModal" tabindex="-1" aria-labelledby="carroModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
@@ -727,7 +629,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Fechar</button>
         </div>
       </div>
     </div>
@@ -735,7 +637,7 @@
   <!-- FIM DO MODAL DO CARRO -->
 
   <!-- MODAL DA MOTO -->
-  <div class="modal fade" id="motoModal" tabindex="-1" aria-labelledby="motoModalLabel" aria-hidden="true">
+  <div class="modal fade text-muted lead" id="motoModal" tabindex="-1" aria-labelledby="motoModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
@@ -772,7 +674,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Fechar</button>
         </div>
       </div>
     </div>
@@ -780,11 +682,11 @@
   <!-- FIM DO MODAL DA MOTO -->
 
   <!-- MODAL DO UTILITÁRIO -->
-  <div class="modal fade" id="utilitarioModal" tabindex="-1" aria-labelledby="utilitarioModalLabel" aria-hidden="true">
+  <div class="modal fade text-muted lead" id="utilitarioModal" tabindex="-1" aria-labelledby="utilitarioModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="utilitarioModalLabel">Carro</h5>
+          <h5 class="modal-title" id="utilitarioModalLabel">Utilitário</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -818,7 +720,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Fechar</button>
         </div>
       </div>
     </div>
@@ -826,11 +728,11 @@
   <!-- FIM DO MODAL DO UTILITÁRIO -->
 
   <!-- MODAL DO BAÚ -->
-  <div class="modal fade" id="bauModal" tabindex="-1" aria-labelledby="bauModalLabel" aria-hidden="true">
+  <div class="modal fade text-muted lead" id="bauModal" tabindex="-1" aria-labelledby="bauModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="bauModalLabel">Carro</h5>
+          <h5 class="modal-title" id="bauModalLabel">Baú</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -862,7 +764,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-secondary rounded-pill" data-bs-dismiss="modal">Fechar</button>
         </div>
       </div>
     </div>

@@ -16,6 +16,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <style>
@@ -223,123 +224,40 @@
 
   <!-- Explicação -->
   <!--  -->
-  <section class="userInfos" id="infos">
-    <div class="cta-content mb-6">
-      <div class=" px-3 py-0 text-white">
-      <div class="row gx-5 align-items-center justify ">
-                <div class="col-12 order-lg-1 mb-5 mb-lg-0 ">
-                    <div class="container-fluid px-5 text-center ">
-                      
-                      <div class="row gx-5">
-                            <div class="col-xl-5 col-12 mb ">
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Entrega à cobrar</h3>
-                                    <p class="mb-0 fs-6 fw-400">Envie um item e permita que o destinatário pague pela
-                                    entrega. Basta que ele autorize previamente através
-                                    de um token recebido via SMS.
-                                    A não realização de pagamento pelo mesmo incidirá
-                                    no retorno da encomenda ao remetente e cobrança
-                                    dos custos iniciais acrescentado do novo
-                                    deslocamento.</p>
-                                    
-                                </div>
-                            </div>
-                      </div>
-                        <div class="row gx-5">
-                            
-                            <div class="col-xl-2 col-12 mt-xl-5 me-user mb-5 mb-xl-0">
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Viagem segura</h3>
-                                    <p class="mb-0 fs-6 fw-400">O usuário pode acompanhar a
-viagem pelo rastreamento
-disponibilizado pelo aplicativo.</p>
-                                    
-                                </div>
-                            </div>
-                            <div class="col-xl-2 col-12 mt-10 ms-xl-5 me-xl-5 mb-5 mb-xl-0">
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Preço baixo</h3>
-                                    <p class="mb-0 fs-6 fw-400">Tarifa fixa para qualquer
-localização da cidade onde
-será acrescentado às taxas
-de custo de acordo com o
-percurso e veículo utilizado.
-
-                                        </p>
-                                    
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-12 me-xl-5 mb-5 mb-xl-0">
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Indique e Ganhe</h3>
-                                    <p class="mb-0 fs-6 fw-400">Concessão de crédito para
-usuários que indicarem 10 novos
-amigos que realizem a primeira
-corrida pelo aplicativo.</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-2 col-12 mb-5 mb-xl-0">
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Cupons de Descontos</h3>
-                                    <p class="mb-0 fs-6 fw-400">Descontos na taxa de coleta e entrega de
-produtos através da geração de códigos de
-descontos. Acompanhe os banners e
-notificações do nosso aplicativo.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row gx-5 mt-10">
-                            
-                            <div class="col-xl-3 col-12 mb-5 me-xl-4 mb-xl-0">
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Várias paradas</h3>
-                                    <p class="mb-0 fs-6 fw-400">Com uma única entrega, você
-poderá ter até 05 destinos diferentes
-de entrega através de uma única
-corrida. Mais praticidade pra você e
-redução do valor.
-</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-xl-5 mt-xl-5 ms-xl-5 mb-5 mb-xl-0">
-                                <!-- Feature item-->
-                                <div class="">
-                                <h3 class="font-alt fs-6 fw-bolder">Plano VIP</h3>
-                                    <p class="mb-0 fs-6 fw-400">Assinatura com cobrança mensal de R$ 49,90 que
-oferecerá benefícios para você como: viagens com valor
-reduzido, cupons de desconto exclusivos e aumento no
-número de paradas em viagens.
-Acompanhe o lançamento através das nossas redes
-sociais e banner no aplicativo</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-12 ms-xl-5 ">
-                                <!-- Feature item-->
-                                <div class="">
-                                    <p class="mb-0 fs-6 fw-400">Atendimento personalizado
-Além do rastreamento, as corridas
-possuem chats para comunicação com
-motoristas, suporte para problemas
-técnicos e compartilhamento de rotas
-com destinatário.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        
-        <!-- <a class="btn btn-outline-light py-3 px-4 my-3 rounded-pill" href="#!" target="_blank">Baixe agora nosso aplicativo!</a> -->
+  <section class="bg-gradient-blueUser" id="infos">
+  <div class="container p-5 text-muted " >
+    <h2 class="text-center text-white">Venha conhecer os benefícios de utilizar nossa plataforma:</h2>
+      <!-- Preço Justo -->
+      <div class="d-flex flex-column-reverse flex-lg-row align-items-center justify-content-center mx-auto text-center">
+      <div class="col img-fluid text-lg-end" id="motivo">
+          <img src="assets/img/bolhas.png/viagemsegura.png" alt=""style="max-width:100%;" >
+        </div>
+        <div class="col img-fluid text-lg-start" id="motivo">
+          <img src="assets/img/bolhas.png/cuponsdedesconto.png" alt="" style="max-width:100%;">
+        </div>
+      </div>
+      <div class="d-flex flex-column-reverse flex-lg-row align-items-center justify-content-center mx-auto text-center ">
+      <div class="col img-fluid text-lg-end" id="motivo">
+          <img src="assets/img/bolhas.png/indiqueeganhe.png" alt="" style="max-width:100%; ">
+        </div>
+        <div class="col img-fluid text-lg-start" id="motivo">
+          <img src="assets/img/bolhas.png/precobaixo.png" alt="" style="max-width:100%; ">
+        </div>
+      </div><div class="d-flex flex-column-reverse flex-lg-row align-items-center justify-content-center mx-auto text-center ">
+      <div class="col img-fluid text-lg-end" id="motivo">
+          <img src="assets/img/bolhas.png/entregacobrar.png" alt="" style="max-width:100%; ">
+        </div><div class="col img-fluid text-lg-start" id="motivo">
+          <img src="assets/img/bolhas.png/planovip.png" alt="" style="max-width:100%; ">
+        </div>
+      </div><div class="d-flex flex-column-reverse flex-lg-row align-items-center justify-content-center mx-auto text-center ">
+     <div class="col img-fluid text-lg-end" id="motivo">
+          <img src="assets/img/bolhas.png/atendimentopersonalizado.png" alt="" style="max-width:100%; ">
+        </div>
+        <div class="col img-fluid text-lg-start" id="motivo">
+          <img src="assets/img/bolhas.png/variasparadas.png" alt="" style="max-width:100%; ">
+        </div>
       </div>
     </div>
- 
   </section>
   <!--  -->
   <div class="">
@@ -463,7 +381,7 @@ com destinatário.</p>
                 <span class="mx-1">&middot;</span>
                 <a href="assets/docs/termos de uso - clientes.pdf" target="_blank">Termos de Uso - Usuários</a>
                 <span class="mx-1">&middot;</span>
-                <a href="assets/docs/termos de uso - entregador.pdf.pdf" target="_blank">Termos de Uso - Entregadores</a>
+                <a href="assets/docs/termos de uso - entregador.pdf" target="_blank">Termos de Uso - Entregadores</a>
             </div>
         </div>
     </footer>
